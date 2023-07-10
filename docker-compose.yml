@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  rtmp:
+    image: alfg/nginx-rtmp
+    container_name: rtmp-nginx
+    ports:
+      - '800:80'
+      - '1935:1935'
+    volumes:
+      - ./:/etc/nginx/nginx.conf.template
