@@ -1,1 +1,1 @@
-# RTMP fro VoD system
+# RTMP for VoD system
